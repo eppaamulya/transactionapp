@@ -1,0 +1,135 @@
+.transaction-list-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #d5d6fd;
+  
+}
+
+.transaction-header {
+  text-align: center;
+  font-size: 30px;
+  color: rgb(10, 2, 56);
+  margin-top: 40px;
+  font-family: 'sans-serif';
+}
+.transaction-div {
+  background-color: #fff;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 12px;
+}
+.history-transactions {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 90vw;
+  min-height: 326px;
+  max-height: 55vh;
+  border: 2px solid #131313;
+  border-radius: 12px;
+  padding-left: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 24px;
+  margin-top: 0px;
+}
+
+.transactions-table-container {
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow-y: scroll;
+  
+}
+  
+.transactions-table {
+  padding-left: 10px;
+  margin: 0px;
+  
+}
+  
+.table-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  list-style-type: none;
+  border: 2px solid #0f0f0f;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+  
+
+  
+.table-header-cell {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  width: 50%;
+  border-right: none;
+  color: black;
+  font-weight: 600;
+}
+
+.table-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 48px;
+  border: 1px solid rgb(211, 209, 209);
+  list-style-type: none;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+
+}
+
+.table-cell {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  width: 50%;
+  align-items: center;
+  color: rgb(6, 1, 31);
+}
+
+.table-cell-1 {
+  
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  width: 50%;
+  align-items: center;
+  font-weight: 600;
+  color: rgb(19, 1, 50);
+  
+}
+
+.button {
+  display: flex;
+  align-self: flex-end;
+  margin-right: 50px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-top: 40px;
+  border: none;
+  background: #224d88;
+  color: beige;
+  font-size: 17px;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+
+span {
+  margin-right: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
